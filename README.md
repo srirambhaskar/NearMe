@@ -1,5 +1,4 @@
 # Ex04 Places Around Me
-#Date 23.10.24
 ## AIM
 To develop a website to display details about the places around my house.
 
@@ -23,170 +22,170 @@ Write HTML programs for all the regions identified.
 ### STEP 6
 Execute the programs and publish them.
 
-## CODE
+## CODE:
+
+# INDEX:
 ```
-map.html
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<title>My City</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"MAP"</title>
+    <h1 align="center">
+        <font color="blueS" face="cursive">
+           RAGUNATH R 212222240081- MAP 
+        </font>
+    </h1>
 </head>
 <body>
-<h1 align="center">
-<font color="green"><b>Krishnagiri</b></font>
-</h1>
-<h3 align="center">
-<font color="purple"><b>Charumathi (22006878)</b></font>
-</h3>
-<center>
-<img src="/static/images/map.png" usemap="#MyCity" >
-<map name="MyCity">
-<area shape="rectangle" coords="881,200,1060,279" href="/static/html/fort.html"  title="Krishnagiri fort">
-<area shape="rectangle" coords="1104,498,1303,559" href="/static/html/residency.html" title="SV residency">
-<area shape="rectangle" coords="1095,583,1253,705" href="/static/html/hotel.html" title=" Pet hotel">
-<area shape="rectangle" coords="912,535,1106,604" href="/static/html/hospital.html" title=" Nanda hospital">
-<area shape="rectangle" coords="649,303,837,423" href="/static/html/society.html" title="Sports society">
-</map>
-</center>
+    <img src="/static/map.jpg" usemap="#image-map">
+
+    <map name="image-map">
+        <area target="" alt="vailnkannischool" title="vailnkannischool" href="vailnkannischool.html" coords="626,63,115" shape="circle">
+        <area target="" alt="hotelagni" title="hotelagni" href="hotelagni.html" coords="333,365,97" shape="circle">
+        <area target="" alt="textilemarket" title="textilemarket" href="textilemarket.html" coords="1122,615,116" shape="circle">
+        <area target="" alt="busstand" title="busstand" href="busstand.html" coords="947,461,101" shape="circle">
+        <area target="" alt="bdooffice" title="bdooffice" href="bdo.html" coords="158,184,133" shape="circle">
+    </map>
 </body>
 </html>
+```
 
-fort.html
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title></title>
-    </head>
-    <body bgcolor="cyan">
-    <h1 align="center">
-    <font color="black"><b>Krishnagiri</b></font>
-    </h1>
-    <h3 align="center">
-    <font color="purple"><b>krishnagiri fort</b></font>
-    </h3>
-    <hr size="3" color="white">
-    <p align="justify">
-    <font face="Georgia" size="5">
-    1)After the death of Shahji, his younger son Vyankoji (Ekoji) became the ruler.<br>
-    2)Krishnagiri Fort is one of the strongest forts in the Krishnagiri district.<br>
-    3)It is now one of the monuments protected by the Archaeological Survey of India.</font>
-    </p>
-    </body>
-</html>
-
-residency.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title> SV Residency</title>
-</head>
-<body bgcolor="pink">
+# BDO OFFICE:
+```
 <h1 align="center">
-<font color="black"><b>Krishnagiri</b></font>
+    <font color="blueS" face="cursive">
+        BDO OFFICE
+    </font>
 </h1>
-<h3 align="center">
-<font color="purple"><b>SV Residency</b></font>
-</h3>
-<hr size="3" color="white">
-<p align="justify">
-<font face="Georgia" size="5">
-1)Sri Venkateswara Residency is a reasonable choice for travellers looking for a budget accomodation in Krishnagiri<br>
-2) It is located in Krishnagiri.<br>
-3) Book your Krishnagiri stay at Sri Venkateswara Residency with best prices only on MakeMyTrip.com.</font>
-</p>
-</body>
-</html>
+<p align="center">
+    <font color="black" face="Comic Sans MS" size="24">
+        <OL  TYPE="1" START="1">
+            <LI>This is a block development officer office in bargur.<br></LI>     
+            <LI>A BDO is a government official who is responsible for overseeing the development of a specific administrative block or region within a district.<br></LI>
+            
+        </OL>
 
-hotel.html
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Pet hotel</title>
-</head>
-<body bgcolor="green">
+    </font>
+    <font color ="blue" face = "cursive" size="20" > 
+    "GOVERNMENT OFFICE"
+    </font>
+```
+
+# BUSSTAND:
+```
 <h1 align="center">
-<font color="black"><b>Krishnagiri</b></font>
+    <font color="purple" face="cursive">
+        BUS STAND
+    </font>
 </h1>
-<h3 align="center">
-<font color="purple"><b>Pet hotel</b></font>
-</h3>
-<hr size="3" color="white">
-<p align="justify">
-<font face="Arial" size="5">
-   1)A pet boarding facility welcomes your pet in safety and comfort while you're away<br>
-   2)There are various types of accommodations available, depending on your pet's personality.<br>
-   3)Individual or group areas, small enclosures or even luxury suites, the goal is to make your furry friend feel at home.</font>
-</p>
-</body>
-</html>
+<p align="center">
+    <font color="black" face="Comic Sans MS" size="24">
+        <OL  TYPE="1" START="1">
+            <LI>This is a very popular bus stand in bargur.<br></LI>     
+            <LI>its biggest bus stand.<br></LI>
+            
+        </OL>
 
-hospital.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Nanda Hospital</title>
-</head>
-<body bgcolor="gray">
-<h1 align="center">
-<font color="black"><b>Krishnagiri</b></font>
-</h1>
-<h3 align="center">
-<font color="purple"><b>Nanda Hospital</b></font>
-</h3>
-<hr size="3" color="white">
-<p align="justify">
-<font face="Tahoma" size="5">
-1)Here ICU has centralized oxygen supply, ventilators and high-technology life saving equipment.<br>
-2)Our Operation Theatre Complex is equipped with the state-of-art Phillips C-arm Fluroscope. <br>
-3)This enables us to perform spinal, brain and complex ortho surgeries. The 3-Chip Laproscope enables us to do micro-invasive, pin-hole surgeries.</font>
- </p>
-</body>
-</html>
 
-society.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Sport society</title>
-</head>
-<body bgcolor="green">
-<h1 align="center">
-<font color="black"><b>Krishnagiri</b></font>
-</h1>
-<h3 align="center">
-<font color="purple"><b>Sport society</b></font>
-</h3>
-<hr size="3" color="white">
-<p align="justify">
-<font face="Courier New" size="5">
-    1)Krishnagiri Sport's Development Society in Krishnagiri is one of the leading businesses in the Sports Clubs.<br>
-    2) Krishnagiri HO has a wide range of products and / or services to cater to the varied requirements of their customers.<br>
-    3)215 were here. Stadium, Arena & Sports Venue.</font>
-</p>
-</body>
-</html>
+    </font>
+    <font color ="purple" face = "cursive" size="20" > 
+    "MOST POPULAR BUS STAND"
+    </font>
 
 ```
 
+# HOTEL AGNI:
+```
+<h1 align="center">
+    <font color="purple" face="cursive">
+           HOTEL AGNI
+    </font>
+</h1>
+<p align="center">
+    <font color="black" face="Comic Sans MS" size="24">
+        <OL  TYPE="1" START="1">
+            <LI>This stunning luxury farm stay offers all the style and amenities of a five star hote.<br></LI>     
+            <LI>This is the best five star hotel in bargur.<br></LI>
+            <LI>Hotel Agni has an outdoor swimming pool, garden, a terrace and restaurant in Krishnagiri.<br></LI>
+            
+        </OL>
 
-## OUTPUT
-![output](./screenshots/put1.png)
 
-![output](./screenshots/put2.png)
+    </font>
+    <font color ="purple" face = "cursive" size="20" > 
+    "FAMOUS FIVE STAR HOTEL"
+    </font>
+```
 
-![output](./screenshots/put3.png)
+# TEXTILE MARKET:
+```
+<h1 align="center">
+    <font color="purple" face="cursive">
+        Textile market
+    </font>
+</h1>
+<p align="center">
+    <font color="black" face="Comic Sans MS" size="24">
+        <OL  TYPE="1" START="1">
+            <LI>Textile Wholesalers in Bargur, Krishnagiri is the one-stop shop for all your textile wholesale needs.<br></LI>     
+            <LI>This is the biggest textile market in our district<br></LI>
+            
+        </OL>
 
-![output](./screenshots/put4.png)
 
-![output](./screenshots/put5.png)
+    </font>
+    <font color ="purple" face = "cursive" size="20" > 
+    "CHEAP AND BEST TEXTILE MARKET"
+    </font>
+```
 
-![output](./screenshots/put6.png)
+# VAILNKANNI SCHOOL:
+```
+<h1 align="center">
+    <font color="purple" face="cursive">
+           VAILNKANNI SCHOOL
+    </font>
+</h1>
+<p align="center">
+    <font color="black" face="Comic Sans MS" size="24">
+        <OL  TYPE="1" START="1">
+            <LI>Vailankanni Matric Hr. Secondary School is an English Medium co0educational school..<br></LI>     
+            <LI>Every Student is expected to strive this goal by dedicated efforts.<br></LI>
+            
+        </OL>
 
 
+    </font>
+    <font color ="purple" face = "cursive" size="20" > 
+    "BEST PRIVATE SCHOOL"
+    </font>
+```
 
-## HTML VALIDATOR
-![HTML VALIDATOR](./screenshots/put7.png)
+
+## OUTPUT:
+
+# INDEX:
+![WhatsApp Image 2023-11-04 at 06 39 16_d4452220](https://github.com/Ragu-123/NearMe/assets/113915622/345ea700-0d2e-4806-94eb-8bf227f155cf)
+
+# BDO OFFICE:
+![WhatsApp Image 2023-11-04 at 06 32 17_1050be95](https://github.com/Ragu-123/NearMe/assets/113915622/a6ecfb77-bc27-4bcd-8746-1750786a69a6)
+
+# BUS STAND:
+![WhatsApp Image 2023-11-04 at 06 35 28_6529d686](https://github.com/Ragu-123/NearMe/assets/113915622/44490e3a-ab7d-4999-913d-e142bfc02ccf)
+
+# HOTEL AGNI:
+![WhatsApp Image 2023-11-04 at 06 34 04_81453b68](https://github.com/Ragu-123/NearMe/assets/113915622/15d30089-d6d2-4a4e-8d90-811f2a71feeb)
+
+# TEXTILE MARKET:
+![WhatsApp Image 2023-11-04 at 06 38 47_fbd880e3](https://github.com/Ragu-123/NearMe/assets/113915622/d1771ba6-9ccb-475d-b927-3f1fc5d39c23)
+
+# SCHOOL:
+![WhatsApp Image 2023-11-04 at 06 33 15_4e9bc36f](https://github.com/Ragu-123/NearMe/assets/113915622/ef5d9775-30af-44ce-a959-5cf001d46d08)
+
+
 
 ## RESULT
 The program for implementing image maps using HTML is executed successfully.
